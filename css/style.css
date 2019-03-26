@@ -1,0 +1,229 @@
+body{
+
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+/* .ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+} */
+.board {
+	background: #DDCB6A;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	margin: 100px 30px 30px 100px;
+}
+.white-board {
+	background: #ffffff;
+	width: 464px;
+	height: 464px;
+	margin: 18px 18px 18px 18px;
+	padding: 0;
+}
+div {
+	display: inline-block;
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	height: 58px;
+	width: 464px;
+	padding: 0;
+	
+}
+.line1 {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	white-space: nowrap;
+}
+.line1 li:nth-of-type(odd) {
+	background: #ffffff;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line1 li:nth-of-type(even) {
+	background: #000000;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line2 {
+	display: inline-block;
+	width: 464px;
+	padding-top: 58px;
+}
+.line2 li:nth-of-type(even) {
+	background: #ffffff;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line2 li:nth-of-type(odd) {
+	background: #000000;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line3 {
+	display: inline-block;
+	width: 464px;
+	padding-top: 116px;
+}
+.line3 li:nth-of-type(odd) {
+	background: #ffffff;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line3 li:nth-of-type(even) {
+	background: #000000;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line4 {
+	display: inline-block;
+	width: 464px;
+	padding-top: 174px;
+}
+.line4 li:nth-of-type(even) {
+	background: #ffffff;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line4 li:nth-of-type(odd) {
+	background: #000000;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line5 {
+	display: inline-block;
+	width: 464px;
+	padding-top: 232px;
+}
+.line5 li:nth-of-type(odd) {
+	background: #ffffff;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line5 li:nth-of-type(even) {
+	background: #000000;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line6 {
+	display: inline-block;
+	width: 464px;
+	padding-top: 290px;
+}
+.line6 li:nth-of-type(even) {
+	background: #ffffff;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line6 li:nth-of-type(odd) {
+	background: #000000;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line7 {
+	display: inline-block;
+	width: 464px;
+	padding-top: 348px;
+}
+.line7 li:nth-of-type(odd) {
+	background: #ffffff;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line7 li:nth-of-type(even) {
+	background: #000000;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line8 {
+	display: inline-block;
+	width: 464px;
+	padding-top: 406px;
+}
+.line8 li:nth-of-type(even) {
+	background: #ffffff;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+.line8 li:nth-of-type(odd) {
+	background: #000000;
+	width: 58px;
+	height: 58px;
+	display: inline-block;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0px;
+	width: 464px;
+}
